@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.rba.menutag.control.tag.TagGroup
+        android:id="@+id/tagGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:deselectedColor="@color/deselected_color"
+        app:deselectedFontColor="@color/deselected_font_color"
+        app:selectedColor="@color/selected_color"
+        app:selectedFontColor="@color/selected_font_color"
+        app:deselectTransitionMS="500"
+        app:selectTransitionMS="750"
+        app:selectMode="single"/>
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/result"/>
+
+
+</LinearLayout>

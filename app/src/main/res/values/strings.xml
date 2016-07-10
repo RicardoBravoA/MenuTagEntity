@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MenuTag</string>
+    <string name="result">RESULTADO</string>
+
+    <string name="text_tag">Tag %1$s</string>
+    <string name="select_tag">Tag Seleccionado:  %1$s</string>
+    <string name="not_select_tag">No ha seleccionado ningún Tag</string>
+
+</resources>
